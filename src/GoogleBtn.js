@@ -25,7 +25,7 @@ class GoogleBtn extends Component {
 
   handleClick(){
     let recaptcha = new firebase.auth.RecaptchaVerifier('recaptcha');
-    let number = '+917993842779';
+    let number = '+919999999999';
     firebase.auth().signInwithPhoneNumber(number,recaptcha).then(function(e){
           let code = prompt('enter the otp','');
           if(code == null) return;
