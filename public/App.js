@@ -28,7 +28,6 @@ render() {
             <BrowserRouter>
                 <Switch>
                     <Route exact path={"/"} component={GoogleBtn}/>
-                    <Route exact path={"/products"} component={Home}/>
                     <Route exact path={'/googlebtn'} component={GoogleBtn}/>
                     <Route exact path={'/products/:id'} component={ProductDetail}/>
                     <Route exact path={'/cart'} component={ShoppingCart}/>
